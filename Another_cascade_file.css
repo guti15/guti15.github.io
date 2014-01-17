@@ -9,6 +9,7 @@ body{
     font-family:Times New Roman; 
     width: 500px;
     height: 600px;
+    top: 15%; 
     
 } 
 img{ 
@@ -16,7 +17,7 @@ img{
     height: 340px; 
     width: 450px; 
     position:absolute; 
-    top: 100px; 
+    top: 15%; 
     left: 630px;
 }
 
