@@ -1,12 +1,12 @@
 body{ 
-    background-color: #1F1710;
+    background-color: rgb(220,220,220);  /*#1F1710;*/
 
 
     font-family: Helvetica; 
 } 
 
 .bio_banner{ 
-    background-color: #a39067;
+    background-color: rgba(245,245,245)
     font-size: 20px; 
     border-radius: 25px;
     width: 500px;
