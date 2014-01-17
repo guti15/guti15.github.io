@@ -6,11 +6,11 @@ body{
 } 
 
 .bio_banner{ 
-    background-color: rgba(245,245,245)
+    background-color: rgba(245,245,245,0.8);
     font-size: 20px; 
     border-radius: 25px;
     width: 500px;
-    height: 600px;
+    height: 540px;
     top: 15%; 
     
     
@@ -20,13 +20,13 @@ img{
     height: 320px; 
     width: 430px; 
     position:absolute; 
-    top: 15%; 
+    top: 20%; 
     left: 630px;
 }
 
 h1{ 
     font-size: 45px;
-    color: #916C47; 
+    color: rgb(0,0,0);
 }
 
 h2 {
