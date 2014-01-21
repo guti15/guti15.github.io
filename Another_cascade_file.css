@@ -6,6 +6,7 @@ body{
 } 
 
 .bio_banner{ 
+    display: inline-block 
     background-color: rgba(245,245,245,0.8);
     font-size: 20px; 
     border-radius: 25px;
@@ -16,6 +17,7 @@ body{
     
 } 
 img{ 
+    display: inline-block; 
     border-radius: 25px; 
     height: 320px; 
     width: 430px; 
