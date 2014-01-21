@@ -20,7 +20,7 @@ img{
     display: inline-block;
 }
 .me{ 
-    /* display: inline-block; */
+    
     border-radius: 25px; 
     height: 320px; 
     width: 430px; 
@@ -31,7 +31,7 @@ img{
 
     position: relative;
     left: 600px;
-    bottom: 35%;
+    
 }
 
 h1{ 
