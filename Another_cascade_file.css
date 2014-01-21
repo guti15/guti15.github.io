@@ -16,8 +16,11 @@ body{
     position: relative; 
     
 } 
+img{
+    display: inline-block;
+}
 .me{ 
-    display: inline-block; 
+    /* display: inline-block; */
     border-radius: 25px; 
     height: 320px; 
     width: 430px; 
@@ -25,7 +28,7 @@ body{
   
 }
 .widgets{ 
-    display: inline-block;
+    /* display: inline-block; */
     position: relative;
    
 }
