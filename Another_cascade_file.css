@@ -13,7 +13,7 @@ body{
     width: 500px;
     height: 540px;
     top: 15%; 
-    
+    position: relative; 
     
 } 
 .me{ 
@@ -21,7 +21,7 @@ body{
     border-radius: 25px; 
     height: 320px; 
     width: 430px; 
-    position: relative; 
+    position: relative;
   
 }
 .widgets{ 
