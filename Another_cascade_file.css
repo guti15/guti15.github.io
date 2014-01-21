@@ -21,7 +21,7 @@ body{
     border-radius: 25px; 
     height: 320px; 
     width: 430px; 
-    position:absolute; 
+    position: relative; 
   
 }
 .widgets{ 
