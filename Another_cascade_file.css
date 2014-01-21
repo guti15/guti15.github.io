@@ -16,15 +16,15 @@ body{
     
     
 } 
-img{ 
+.me{ 
     display: inline-block; 
     border-radius: 25px; 
     height: 320px; 
     width: 430px; 
     position:absolute; 
-    
-    
+  
 }
+
 
 h1{ 
     font-size: 45px;
