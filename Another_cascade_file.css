@@ -24,7 +24,9 @@ body{
     position:absolute; 
   
 }
-
+.widgets{ 
+    display:inline-block;
+}
 
 h1{ 
     font-size: 45px;
