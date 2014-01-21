@@ -26,6 +26,7 @@ body{
 }
 .widgets{ 
     display: inline-block;
+    position: absolute;
    
 }
 
