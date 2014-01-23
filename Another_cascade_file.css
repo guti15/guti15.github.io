@@ -28,8 +28,8 @@ img{
 }
 .widgets{ 
 
-    position: rellative;
-   
+    position: relative;
+    left: 600px;
     
 }
 
