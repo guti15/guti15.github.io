@@ -21,6 +21,7 @@ img{
 }
 .pictureSide{ 
     display: inline-block; 
+    position: relative;
 
 }
 
@@ -31,6 +32,7 @@ img{
     width: 430px; 
 }
 .widgets{ 
+
 
     position: relative;
 
