@@ -24,11 +24,12 @@ img{
     border-radius: 25px; 
     height: 320px; 
     width: 430px; 
+
 }
 .widgets{ 
 
-    position: relative;
-    left: 600px;
+    position: rellative;
+   
     
 }
 
