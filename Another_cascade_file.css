@@ -19,19 +19,24 @@ body{
 img{
    
 }
+.picture{ 
+    display: inline-block; 
+
+}
+
+
 .me{ 
-    display: inline-block;
+
     border-radius: 25px; 
     height: 320px; 
     width: 430px; 
-
 }
 .widgets{ 
 
     position: relative;
-    left: 600px;
-    
+    left: 600px;  
 }
+
 
 h1{ 
     font-size: 45px;
@@ -41,4 +46,7 @@ h1{
 h2 {
     font-family: Impact; 
 } 
+
+
+
 
