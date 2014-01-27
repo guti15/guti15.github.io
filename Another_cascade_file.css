@@ -23,6 +23,10 @@ body{
     height: 320px; 
     width: 430px; 
 }
+.widgets{
+    margin-left: auto; 
+    margin-right: auto; 
+}
 h1{ 
     font-size: 45px;
     color: rgb(0,0,0);
