@@ -14,7 +14,7 @@ body{
 .pictureSide{ 
     display: inline-block; 
     top: 40%;
-    position: relative; 
+    position: absolute; 
 }
 
 .me{ 
