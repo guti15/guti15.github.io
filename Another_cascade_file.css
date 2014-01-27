@@ -4,7 +4,7 @@ body{
 } 
 .bio_banner{ 
     display: inline-block;
-    top: 20 em;
+    top: 20em;
     background-color: rgba(245,245,245,0.8);
     font-size: 20px; 
     border-radius: 25px;
@@ -13,7 +13,7 @@ body{
 } 
 .pictureSide{ 
     display: inline-block; 
-    top: 20 em; 
+    top: 20em; 
 }
 
 .me{ 
