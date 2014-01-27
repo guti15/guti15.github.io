@@ -1,7 +1,5 @@
 body{ 
     background-color: rgb(220,220,220);  /*#1F1710;*/
-
-
     font-family: Helvetica; 
 } 
 
@@ -12,33 +10,23 @@ body{
     border-radius: 25px;
     width: 500px;
     height: 540px;
-    top: 15%; 
 
-    
 } 
-img{
-   
-}
+
 .pictureSide{ 
     display: inline-block; 
-    position: relative;
-
+  
 }
 
 .me{ 
-
     border-radius: 25px; 
     height: 320px; 
     width: 430px; 
 }
-
-
-
 h1{ 
     font-size: 45px;
     color: rgb(0,0,0);
 }
-
 h2 {
     font-family: Impact; 
 } 
