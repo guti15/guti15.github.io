@@ -5,15 +5,16 @@ body{
 .bio_banner{ 
     display: inline-block;
     background-color: rgba(245,245,245,0.8);
-    font-size: 20px; 
-    posiition: relative; 
+    font-size: 20px;
+    top: 20%;
+    posiition: absolute;
     border-radius: 25px;
     width: 500px;
     height: 540px;
 } 
 .pictureSide{ 
     display: inline-block; 
-    top: 40%;
+    top: 20%;
     position: absolute; 
 }
 
