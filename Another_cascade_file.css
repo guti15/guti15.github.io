@@ -2,7 +2,6 @@ body{
     background-color: rgb(220,220,220);  /*#1F1710;*/
     font-family: Helvetica; 
 } 
-
 .bio_banner{ 
     display: inline-block;
     background-color: rgba(245,245,245,0.8);
@@ -10,9 +9,7 @@ body{
     border-radius: 25px;
     width: 500px;
     height: 540px;
-
 } 
-
 .pictureSide{ 
     display: inline-block; 
   
