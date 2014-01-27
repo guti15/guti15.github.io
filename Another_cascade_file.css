@@ -13,7 +13,8 @@ body{
 } 
 .pictureSide{ 
     display: inline-block; 
-    top: 20%; 
+    top: 20%;
+    position: relative; 
 }
 
 .me{ 
