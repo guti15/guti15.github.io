@@ -1,22 +1,28 @@
+* {
+    box-sizing: border-box;
+    moz-box-sizing: border-box;
+}
+
 body{ 
     background-color: rgb(220,220,220);  /*#1F1710;*/
     font-family: Helvetica; 
 } 
 .bio_banner{ 
-    display: inline-block;
     background-color: rgba(245,245,245,0.8);
     font-size: 20px;
-    top: 20%;
-    posiition: absolute;
+    margin-top: 20%;
     border-radius: 25px;
-    width: 500px;
+    width: 50%;
+    float: left;
     height: 540px;
 } 
+.bio_banner h2 {
+    text-align: center;
+}
 .pictureSide{ 
-    display: inline-block; 
-    top: 20%;
-    position: absolute; 
-    
+    margin-top: 20%;
+    width: 50%;
+    float: left;
 }
 
 .me{ 
