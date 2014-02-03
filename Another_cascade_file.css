@@ -1,38 +1,38 @@
 * {
     box-sizing: border-box;
-    moz-box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
-
-body{ 
+body { 
     background-color: rgb(220,220,220);  /*#1F1710;*/
     font-family: Helvetica; 
 } 
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
 .bio_banner{ 
     background-color: rgba(245,245,245,0.8);
     font-size: 20px;
-    margin-top: 20%;
     border-radius: 25px;
     width: 50%;
     float: left;
     height: 540px;
+    padding: 1em;
 } 
 .bio_banner h2 {
     text-align: center;
 }
 .pictureSide{ 
-    margin-top: 20%;
     width: 50%;
     float: left;
-}
-
-.me{ 
     border-radius: 25px; 
-    height: 320px; 
-    width: 430px; 
+}
+.me{ 
+    width: 100%;
+    height: auto;
 }
 .widgets{
     text-align: center; 
-    
 }
 h1{ 
     font-size: 45px;
@@ -41,7 +41,3 @@ h1{
 h2 {
     font-family: Impact; 
 } 
-
-
-
-
