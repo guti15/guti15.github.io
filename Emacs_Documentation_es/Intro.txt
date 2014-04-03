@@ -1,0 +1,48 @@
+
+# -*- mode:org -*- 
+
+
+Emacs es un editor de texto con mucha potencia.  El uso de este editor es mas para la persona quien crea softaware.  Aunque hace mucho mas que solo ser un editor.  Aparte de escribir programs en lenguas como  C++, Java, Javascript, Python, Ruby, HTML, o CSS.  Tiene una potencia de casi ser considerado un sistema operativo.  Una de las ventajas en Emacs es la abilidad de descartar el Mouse por completo.  Y estar en en Terminal o cmd dependiendo en el systema operativo que usador tenga.   
+- Mi razon por publicar este pequeño editorial es para crear una referencia.  Y un impulso para empezar usar emacs.   Especialmente siendo un editor PODEROSO que aparece estar en esteroides.  
+
+ Bueno pienso que la forma mas mejor de aprender es aprendiendo con ejereciosos.  Enotces empezemos.  
+
+ * estas reglas cuentan para la version de Emacs 24.3
+
+** Los Comandos mas Basicos:  
+   `
+   1. M-x  =  esc + x (combinacion de estos dos botones)
+   2. C-x  =  Cntrl + x ( combinacion de dos botones)
+   3. RET  =   Return o Enter
+   4. SPC  =   La tecla de spacio
+   5. ESC  =   Es esc (localizado normalmente arriba ala izquierda en la esquina)o
+   6. C-x-c =  Para salir Del Editor
+
+** Movilizarse: 
+   1. C-p   =  Mover hacia arriba el cursor
+   2. C-n   =  Mover hacia abajo el cursor
+   3. C-f   =  Mover adelante o asi adelante (corre el cursor hacia la derecha)
+   4. M-f   =  Mueve el cursor asi adelante pero por letra completa 
+   5. C-b   =  Mover para tras o asi atras  (corre el cursor hacia la izquierda)
+   6. M-b   =  Mueve el cursor asi atras por palabra entera
+   7. C-a   =  Mueve el cursor al principio de la linia
+   8. C-e   =  Mueve el cursor al final de la linia
+   9. M->   =  Mueve el cursor hasta el final de la pagina entera ((Esc->) Dos teclas )
+   10. M-<  =  Mueve el cursor hasta el principio de la pagina  ( similar a numero nueve) 
+
+     
+** Mas comandos: 
+   
+   1. C-x-f  =  Encontrar documento.
+   2. C-x-s  =  Aguardar progresso echo ha algun documento 
+
+** Crear mas windows: 
+   + C-x-2   =  Crea un window horizontal
+   + C-x-3   =  Crea un window vertical
+   + C-x-o =  Mueve el cursor a siguiente window
+   + C-x-1 =  Mata a todo los demas windows menos donde aparece estar el cursor
+   + C-x-0 =  Mata al window donde aperce estar el cursor 
+
+|   |   |   |   |   | |---+---+---+---+---| |   |   |   |   |   |   |   |   |   |   |   | |---+---+---+---+---| |   |   |   |   |   |
+-esta pagina es una que esta en pogreso y cualquier pregunta o notacion que necesite ser areglado o comentada porfavor de contactar a este enlace [[mailto:guti495@gmail.com][email]]
+

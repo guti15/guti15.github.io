@@ -1,0 +1,33 @@
+# -*-mode:org -*- 
+
+
+** Agamos un program facil
+   - usare python como lengua para dar este pequeno ejemplo.
+   - Esten seguros que haigan bajado python O sino sigan este enlace.  [[https://www.python.org/downloads/][Python]]
+   - Tambien tener una version de Emacs 24.0 
+
+
+** Paso uno Abrir 
+   - Empecemos abriendo el cmd o Terminal dependiendo que sistema operativo esten occupando.
+   - Despues escribamos: emacs
+   - veromos la pagina Home de Emacs.  Y de alli podemos usar : Cntrl-x-f
+   - Que aparece decir:   Find File: "~/(corriente directorio)"
+   - De aqui podemos escribir:   ~/Desktop/  (Enter)
+   - y nos llevara a un buffer que es reconozido como "dir"
+   - Aqui en este buffer miraremos todos los documentos que estan en nuestro Desktop
+   - Creamos un Nuevo documento para nuestro programa usando  Cntrl-x-f
+   - Displayera: Find file: ~/Desktop/"nombre de nuestro documento" ejemplo  (~/Desktop/emacsPython.py)(Enter)
+   - el uso .py es muy importante porque es la extension de nuestro programa.
+   - Hoy miraremos una pantalla blanca si ningun letra ( MUY BIEN ) .... Hoy a programar!! 
+
+
+** El programa:
+   Este es el programa que escribiere: 
+   Para activar los numeros ala izquiera puede usar commandos: ESC+x linum-mode 
+   
+
+   1. print("hola Mundo bienvenido a EMACS ! " ) 
+   2. print("Mi Nombre") 
+   3. for i in range(10): 
+   4.    print i 
+   5. print("Done. \n")
