@@ -1,0 +1,8 @@
+<br>
+<center>  
+
+  <a href="./build.html"><img src="../img/back_es.png" alt="Siguiente" /></a>
+  <a href="../index.html"><img src="../img/GitHub-Mark/PNG/GitHub-Mark-64px.png" alt="Home_Profile" /></a>
+
+  
+</center>

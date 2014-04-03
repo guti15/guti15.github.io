@@ -1,6 +1,5 @@
-
 # -*- mode:org -*- 
-
+#+OPTIONS: H:3 num:nil 
 
 Emacs es un editor de texto con mucha potencia.  El uso de este editor es mas para la persona quien crea softaware.  Aunque hace mucho mas que solo ser un editor.  Aparte de escribir programs en lenguas como  C++, Java, Javascript, Python, Ruby, HTML, o CSS.  Tiene una potencia de casi ser considerado un sistema operativo.  Una de las ventajas en Emacs es la abilidad de descartar el Mouse por completo.  Y estar en en Terminal o cmd dependiendo en el systema operativo que usador tenga.   
 - Mi razon por publicar este pequeño editorial es para crear una referencia.  Y un impulso para empezar usar emacs.   Especialmente siendo un editor PODEROSO que aparece estar en esteroides.  

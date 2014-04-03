@@ -3,8 +3,8 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<title>Construir</title>
-<!-- 2014-04-03 Thu 12:12 -->
+<title>Intro</title>
+<!-- 2014-03-31 Mon 01:10 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="generator" content="Org-mode" />
 <meta  name="author" content="Robert Gutierrez" />
@@ -134,146 +134,222 @@ for the JavaScript code in this tag.
  }
 /*]]>*///-->
 </script>
-<script type="text/javascript" src="http://orgmode.org/mathjax/MathJax.js"></script>
-<script type="text/javascript">
-<!--/*--><![CDATA[/*><!--*/
-    MathJax.Hub.Config({
-        // Only one of the two following lines, depending on user settings
-        // First allows browser-native MathML display, second forces HTML/CSS
-        //  config: ["MMLorHTML.js"], jax: ["input/TeX"],
-            jax: ["input/TeX", "output/HTML-CSS"],
-        extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js",
-                     "TeX/noUndefined.js"],
-        tex2jax: {
-            inlineMath: [ ["\\(","\\)"] ],
-            displayMath: [ ['$$','$$'], ["\\[","\\]"], ["\\begin{displaymath}","\\end{displaymath}"] ],
-            skipTags: ["script","noscript","style","textarea","pre","code"],
-            ignoreClass: "tex2jax_ignore",
-            processEscapes: false,
-            processEnvironments: true,
-            preview: "TeX"
-        },
-        showProcessingMessages: true,
-        displayAlign: "center",
-        displayIndent: "2em",
-
-        "HTML-CSS": {
-             scale: 100,
-             availableFonts: ["STIX","TeX"],
-             preferredFont: "TeX",
-             webFont: "TeX",
-             imageFont: "TeX",
-             showMathMenu: true,
-        },
-        MMLorHTML: {
-             prefer: {
-                 MSIE:    "MML",
-                 Firefox: "MML",
-                 Opera:   "HTML",
-                 other:   "HTML"
-             }
-        }
-    });
-/*]]>*///-->
-</script>
 </head>
 <body>
 <div id="content">
-<h1 class="title">build</h1>
+<h1 class="title">Intro</h1>
 <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#sec-1">Agamos un program facil</a></li>
-<li><a href="#sec-2">Paso uno Abrir</a></li>
-<li><a href="#sec-3">El programa:</a></li>
+<li><a href="#sec-1">1. Los Comandos mas Basicos:</a></li>
+<li><a href="#sec-2">2. Movilizarse:</a></li>
+<li><a href="#sec-3">3. Mas comandos:</a></li>
+<li><a href="#sec-4">4. Crear mas windows:</a></li>
 </ul>
 </div>
 </div>
-
-<div id="outline-container-sec-1" class="outline-2">
-<h2 id="sec-1">Agamos un program facil</h2>
-<div class="outline-text-2" id="text-1">
-<ul class="org-ul">
-<li>usare python como lengua para dar este pequeno ejemplo.
-</li>
-<li>Esten seguros que haigan bajado python O sino sigan este enlace.  <a href="https://www.python.org/downloads/">Python</a>
-</li>
-<li>Tambien tener una version de Emacs 24.0 
-</li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-sec-2" class="outline-2">
-<h2 id="sec-2">Paso uno Abrir</h2>
-<div class="outline-text-2" id="text-2">
-<ul class="org-ul">
-<li>Empecemos abriendo el cmd o Terminal dependiendo que sistema operativo esten occupando.
-</li>
-<li>Despues escribamos: emacs
-</li>
-<li>veromos la pagina Home de Emacs.  Y de alli podemos usar : Cntrl-x-f
-</li>
-<li>Que aparece decir:   Find File: "~/(corriente directorio)"
-</li>
-<li>De aqui podemos escribir:   ~/Desktop/  (Enter)
-</li>
-<li>y nos llevara a un buffer que es reconozido como "dir"
-</li>
-<li>Aqui en este buffer miraremos todos los documentos que estan en nuestro Desktop
-</li>
-<li>Creamos un Nuevo documento para nuestro programa usando  Cntrl-x-f
-</li>
-<li>Displayera: Find file: ~/Desktop/"nombre de nuestro documento" ejemplo  (~/Desktop/emacsPython.py)(Enter)
-</li>
-<li>el uso .py es muy importante porque es la extension de nuestro programa.
-</li>
-<li>Hoy miraremos una pantalla blanca si ningun letra ( MUY BIEN ) &#x2026;. Hoy a programar!! 
-</li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-sec-3" class="outline-2">
-<h2 id="sec-3">El programa:</h2>
-<div class="outline-text-2" id="text-3">
 <p>
-Este es el programa que escribiere: 
-Para activar los numeros ala izquiera puede usar commandos: ESC+x linum-mode 
+Emacs es un editor de texto con mucha potencia.  El uso de este editor es mas para la persona quien crea softaware.  Aunque hace mucho mas que solo ser un editor.  Aparte de escribir programs en lenguas como  C++, Java, Javascript, Python, Ruby, HTML, o CSS.  Tiene una potencia de casi ser considerado un sistema operativo.  Una de las ventajas en Emacs es la abilidad de descartar el Mouse por completo.  Y estar en en Terminal o cmd dependiendo en el systema operativo que usador tenga.   
+</p>
+<ul class="org-ul">
+<li>Mi razon por publicar este pequeño editorial es para crear una referencia.  Y un impulso para empezar usar emacs.   Especialmente siendo un editor PODEROSO que aparece estar en esteroides.  
+
+<p>
+Bueno pienso que la forma mas mejor de aprender es aprendiendo con ejereciosos.  Enotces empezemos.  
 </p>
 
+<ul class="org-ul">
+<li>estas reglas cuentan para la version de Emacs 24.3
+</li>
+</ul>
+</li>
+</ul>
 
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> Los Comandos mas Basicos:</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+`
+</p>
 <ol class="org-ol">
-<li>print("hola Mundo bienvenido a EMACS ! " ) 
+<li>M-x  =  esc + x (combinacion de estos dos botones)
 </li>
-<li>print("Mi Nombre") 
+<li>C-x  =  Cntrl + x ( combinacion de dos botones)
 </li>
-<li>for i in range(10): 
+<li>RET  =   Return o Enter
 </li>
-<li>print i 
+<li>SPC  =   La tecla de spacio
 </li>
-<li>print("Done. \n")
+<li>ESC  =   Es esc (localizado normalmente arriba ala izquierda en la esquina)o
+</li>
+<li>C-x-c =  Para salir Del Editor
 </li>
 </ol>
 </div>
 </div>
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> Movilizarse:</h2>
+<div class="outline-text-2" id="text-2">
+<ol class="org-ol">
+<li>C-p   =  Mover hacia arriba el cursor
+</li>
+<li>C-n   =  Mover hacia abajo el cursor
+</li>
+<li>C-f   =  Mover adelante o asi adelante (corre el cursor hacia la derecha)
+</li>
+<li>M-f   =  Mueve el cursor asi adelante pero por letra completa 
+</li>
+<li>C-b   =  Mover para tras o asi atras  (corre el cursor hacia la izquierda)
+</li>
+<li>M-b   =  Mueve el cursor asi atras por palabra entera
+</li>
+<li>C-a   =  Mueve el cursor al principio de la linia
+</li>
+<li>C-e   =  Mueve el cursor al final de la linia
+</li>
+<li>M-&gt;   =  Mueve el cursor hasta el final de la pagina entera ((Esc-&gt;) Dos teclas )
+</li>
+<li>M-&lt;  =  Mueve el cursor hasta el principio de la pagina  ( similar a numero nueve) 
+</li>
+</ol>
+</div>
 </div>
 
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> Mas comandos:</h2>
+<div class="outline-text-2" id="text-3">
+<ol class="org-ol">
+<li>C-x-f  =  Encontrar documento.
+</li>
+<li>C-x-s  =  Aguardar progresso echo ha algun documento 
+</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4"><span class="section-number-2">4</span> Crear mas windows:</h2>
+<div class="outline-text-2" id="text-4">
+<ul class="org-ul">
+<li>C-x-2   =  Crea un window horizontal
+</li>
+<li>C-x-3   =  Crea un window vertical
+</li>
+<li>C-x-o =  Mueve el cursor a siguiente window
+</li>
+<li>C-x-1 =  Mata a todo los demas windows menos donde aparece estar el cursor
+</li>
+<li>C-x-0 =  Mata al window donde aperce estar el cursor 
+</li>
+</ul>
 
-<br>
-<center>  
-
-  <a href="./build.html"><img src="../img/back_es.png" alt="Siguiente" /></a>
-  <a href="../index.html"><img src="../img/GitHub-Mark/PNG/GitHub-Mark-64px.png" alt="Home_Profile" /></a>
-
-  
-</center>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#x2014;+&#x2014;+&#x2014;+&#x2014;+---</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#x2014;+&#x2014;+&#x2014;+&#x2014;+---</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+<center>
+
+a href="../Intro.html"> <img src="../img/next_es.png" alt="Siguiente Pagina"/> </a>
+
+
+
+ <a href="./build.html"> <img src="../img/next_es.png" alt="Siguiente Pagina"/> </a> </center>
+
+<p>
+-esta pagina es una que esta en pogreso y cualquier pregunta o notacion que necesite ser areglado o comentada porfavor de contactar a este enlace <a href="mailto:guti495@gmail.com">email</a>
+</p>
+</div>
+</div>
+</div>
 <div id="postamble" class="status">
 <p class="author">Author: Robert Gutierrez</p>
-<p class="date">Created: 2014-04-03 Thu 12:12</p>
+<p class="date">Created: 2014-03-31 Mon 01:10</p>
 <p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.3.1 (<a href="http://orgmode.org">Org</a> mode 8.2.5h)</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
