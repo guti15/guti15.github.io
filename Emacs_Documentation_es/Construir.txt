@@ -1,5 +1,5 @@
 # -*-mode:org -*- 
-
+#+OPTIONS: H:3 num:nil 
 
 ** Agamos un program facil
    - usare python como lengua para dar este pequeno ejemplo.
@@ -24,10 +24,24 @@
 ** El programa:
    Este es el programa que escribiere: 
    Para activar los numeros ala izquiera puede usar commandos: ESC+x linum-mode 
-   
 
+#+BEGIN_EXAMPLE
    1. print("hola Mundo bienvenido a EMACS ! " ) 
    2. print("Mi Nombre") 
    3. for i in range(10): 
    4.    print i 
    5. print("Done. \n")
+
+#+END_EXAMPLE   
+
+#+BEGIN_HTML
+<br>
+<center>  
+
+  <a href="./build.html"><img src="../img/back_es.png" alt="Siguiente" /></a>
+  <a href="../index.html"><img src="../img/GitHub-Mark/PNG/GitHub-Mark-64px.png" alt="Home_Profile" /></a>
+
+  
+</center>
+
+#+END_HTML

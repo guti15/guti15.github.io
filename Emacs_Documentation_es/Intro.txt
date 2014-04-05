@@ -42,6 +42,17 @@ Emacs es un editor de texto con mucha potencia.  El uso de este editor es mas pa
    + C-x-1 =  Mata a todo los demas windows menos donde aparece estar el cursor
    + C-x-0 =  Mata al window donde aperce estar el cursor 
 
-|   |   |   |   |   | |---+---+---+---+---| |   |   |   |   |   |   |   |   |   |   |   | |---+---+---+---+---| |   |   |   |   |   |
+
+
+
 -esta pagina es una que esta en pogreso y cualquier pregunta o notacion que necesite ser areglado o comentada porfavor de contactar a este enlace [[mailto:guti495@gmail.com][email]]
 
+#+BEGIN_HTML
+<br>
+<center>  
+  <a href="../index.html"><img src="../img/GitHub-Mark/PNG/GitHub-Mark-64px.png" alt="Home_Profile" /></a>
+
+<a href="./Construir.html"><img src="../img/next_es.png" alt="Siguiente" /></a>
+ 
+</center>
+#+END_HTML
