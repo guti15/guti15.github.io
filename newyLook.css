@@ -78,7 +78,7 @@ body {
 
 .container {
   margin: 0 auto;
-  height: 100%;
+  height: auto;
   width: 85%;
   text-align: center;
   background-color: rgb(205,201,201);
