@@ -4,30 +4,37 @@
 Emacs es un editor de texto con mucha potencia.  El uso de este editor es mas para la persona quien crea softaware.  Aunque hace mucho mas que solo ser un editor.  Aparte de escribir programs en lenguas como  C++, Java, Javascript, Python, Ruby, HTML, o CSS.  Tiene una potencia de casi ser considerado un sistema operativo.  Una de las ventajas en Emacs es la abilidad de descartar el Mouse por completo.  Y estar en en Terminal o cmd dependiendo en el systema operativo que usador tenga.   
 - Mi razon por publicar este pequeño editorial es para crear una referencia.  Y un impulso para empezar usar emacs.   Especialmente siendo un editor PODEROSO que aparece estar en esteroides.  
 
+Para usadores de Windows 95, 98, 2K, NT, ME, XP, Vista, and Windows 7, pueden visitar esta [[http://ftp.gnu.org/gnu/windows/emacs/][link]] y bajar 
+
+#+BEGIN_EXAMPLE
+emacs-24.1-bin-i386.zip    30-Jul-2009 01:10   46M 
+#+END_EXAMPLE
+y para usadores de linux depende la version pueden bajarlo desde el Terminal.  Pueden ver los comandos de [[http://wikemacs.org/index.php/Installing_Emacs_on_GNU/Linux][wikipedia]] y ver cual sistema es mas aplicable para ustedes.
+
  Bueno pienso que la forma mas mejor de aprender es aprendiendo con ejereciosos.  Enotces empezemos.  
 
  * estas reglas cuentan para la version de Emacs 24.3
 
 ** Los Comandos mas Basicos:  
    `
-   1. M-x  =  esc + x (combinacion de estos dos botones)
-   2. C-x  =  Cntrl + x ( combinacion de dos botones)
-   3. RET  =   Return o Enter
-   4. SPC  =   La tecla de spacio
-   5. ESC  =   Es esc (localizado normalmente arriba ala izquierda en la esquina)o
-   6. C-x-c =  Para salir Del Editor
+   + M-x  =  esc + x (combinacion de estos dos botones)
+   + C-x  =  Cntrl + x ( combinacion de dos botones)
+   + RET  =   Return o Enter
+   + SPC  =   La tecla de spacio
+   + ESC  =   Es esc (localizado normalmente arriba ala izquierda en la esquina)o
+   + C-x-c =  Para salir Del Editor
 
 ** Movilizarse: 
-   1. C-p   =  Mover hacia arriba el cursor
-   2. C-n   =  Mover hacia abajo el cursor
-   3. C-f   =  Mover adelante o asi adelante (corre el cursor hacia la derecha)
-   4. M-f   =  Mueve el cursor asi adelante pero por letra completa 
-   5. C-b   =  Mover para tras o asi atras  (corre el cursor hacia la izquierda)
-   6. M-b   =  Mueve el cursor asi atras por palabra entera
-   7. C-a   =  Mueve el cursor al principio de la linia
-   8. C-e   =  Mueve el cursor al final de la linia
-   9. M->   =  Mueve el cursor hasta el final de la pagina entera ((Esc->) Dos teclas )
-   10. M-<  =  Mueve el cursor hasta el principio de la pagina  ( similar a numero nueve) 
+   + C-p   =  Mover hacia arriba el cursor
+   + C-n   =  Mover hacia abajo el cursor
+   + C-f   =  Mover adelante o asi adelante (corre el cursor hacia la derecha)
+   + M-f   =  Mueve el cursor asi adelante pero por letra completa 
+   + C-b   =  Mover para tras o asi atras  (corre el cursor hacia la izquierda)
+   + M-b   =  Mueve el cursor asi atras por palabra entera
+   + C-a   =  Mueve el cursor al principio de la linia
+   + C-e   =  Mueve el cursor al final de la linia
+   + M->   =  Mueve el cursor hasta el final de la pagina entera ((Esc->) Dos teclas )
+   + M-<  =  Mueve el cursor hasta el principio de la pagina  ( similar a numero nueve) 
 
      
 ** Mas comandos: 
