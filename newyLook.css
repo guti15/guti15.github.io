@@ -41,7 +41,7 @@ body,html {
 }
 
 body {
-  color: #fff;
+  color: #000;
   margin: 0 auto;
   font: 1em/1.3em Montserrat,Helvetica,sans-serif;
 }
@@ -98,7 +98,7 @@ h1 {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: #fff; 
   margin: 0 10px;
 }
 
@@ -218,8 +218,7 @@ a.btn-small span.btn {
 
 .navbar a.link span.active .vertical {
   color: #ccc; 			/*Original color code redish #e74c3c*/
-/* Do not like the color scheme to much need to update a bit more 
- */
+/* Do not like the color scheme to much need to update a bit more  */
 }
 
 .navbar a.link span.hover {
