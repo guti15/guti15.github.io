@@ -1,5 +1,0 @@
-recognize a language and then see what languge is it mostly heavliy on.  ---> possibly bank out words in a diffrent language and then define them towards the end 
- 
-
-
-make progresss. on this and show our work on the progress
