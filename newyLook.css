@@ -67,6 +67,7 @@ body {
     float: left;
     width: 50%;
     margin: 20px;
+    /* boarder: 2px solid #3498db; */
 
 
 }
@@ -92,7 +93,8 @@ h1 {
   font-size: 40px;
   line-height: 40px;
   font-weight: bold;
-  text-shadow: 0px 1px 1px #888;
+  color: #fff;
+  text-shadow: 0px 2px 2px #34495e; /*had #888*/
 
 }
 
@@ -217,7 +219,7 @@ a.btn-small span.btn {
 }
 
 .navbar a.link span.active .vertical {
-  color: #fff; 			/* I had it to #ccc Original color code redish #e74c3c*/
+  color: #fff; 			/* I had it to #ccc and now made it white  Original color code redish #e74c3c*/
 /* Do not like the color scheme to much need to update a bit more  */
 }
 
