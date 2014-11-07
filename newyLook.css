@@ -13,7 +13,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 
 body {
   line-height: 1;
-  background-color: rgb(205,201,201);
+  background-color: #ecf0f1   /* This is what was before rgb(205,201,201);*/
   
 
 }
@@ -53,7 +53,7 @@ body {
 
 .bioBox{
 
-    background-color: rgba(205,201,201,.85);
+    background-color: #ecf0f1;    /* rgba(205,201,201,.85); */
     font-size: 20px;
     border-radius: 10%;
     width: 45%;
@@ -82,7 +82,7 @@ body {
   height: auto;
   width: 85%;
   text-align: center;
-  background-color: rgb(205,201,201);
+  background-color: #ecf0f1; /* rgb(205,201,201); */
 
 
 }
