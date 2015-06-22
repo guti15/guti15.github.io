@@ -11,6 +11,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
   display: block;
 }
 
+
 body {
   line-height: 1;
   background-color: #ecf0f1   /* This is what was before rgb(205,201,201);*/
