@@ -5,6 +5,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+
 }
 
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
@@ -14,8 +15,9 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 
 body {
   line-height: 1;
-  background-color: #ecf0f1   /* This is what was before rgb(205,201,201);*/
-  
+  background-color: #ecf0f1;   /* This is what was before rgb(205,201,201);*/
+  height: 100%;
+
 
 }
 
@@ -94,7 +96,7 @@ h1 {
   font-size: 40px;
   line-height: 40px;
   font-weight: bold;
-  color: #fff;
+  color: #95A5A6;		    /*color: cascade*/
   text-shadow: 0px 2px 2px #34495e; /*had #888*/
 
 }
